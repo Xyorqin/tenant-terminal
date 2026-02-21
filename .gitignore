@@ -1,0 +1,16 @@
+/vendor/
+/.idea/
+/.vscode/
+composer.lock
+.DS_Store
+Thumbs.db
+*.log
+.phpunit.result.cache
+.phpunit.cache
+node_modules/
+.env
+.env.backup
+.phpstorm.meta.php
+_ide_helper.php
+_ide_helper_models.php
+.phpstorm.meta.php

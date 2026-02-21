@@ -1,0 +1,40 @@
+{
+    "name": "blaze/tenant-terminal",
+    "description": "Interactive terminal for running Laravel commands within tenant context",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Blaze",
+            "email": "blaze@example.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^10.0|^11.0",
+        "illuminate/console": "^10.0|^11.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0|^9.0",
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Blaze\\TenantTerminal\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Blaze\\TenantTerminal\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Blaze\\TenantTerminal\\TenantTerminalServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
