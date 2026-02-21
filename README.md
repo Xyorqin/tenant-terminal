@@ -1,10 +1,20 @@
-# Blaze Tenant Terminal
+# Xyorqin Tenant Terminal
 
 Interactive terminal for running Laravel commands within tenant context. Instead of typing `php artisan tenants:run command --tenant=id`, simply run `php artisan tenant`, select a tenant, and all subsequent commands will run in that tenant's context.
 
 ## Installation
 
-### Usul 1: Git Repository orqali (Rekomendatsiya)
+### Via Composer (Packagist)
+
+Eng oson usul - Packagist orqali:
+
+```bash
+composer require xyorqin/tenant-terminal
+```
+
+### Git Repository orqali
+
+Agar paket hali Packagist da bo'lmasa:
 
 1. Git repository URL ni oling (GitHub, GitLab, Bitbucket, va h.k.)
 
@@ -19,7 +29,7 @@ Interactive terminal for running Laravel commands within tenant context. Instead
         }
     ],
     "require": {
-        "blaze/tenant-terminal": "dev-main"
+        "xyorqin/tenant-terminal": "dev-main"
     }
 }
 ```
@@ -27,10 +37,10 @@ Interactive terminal for running Laravel commands within tenant context. Instead
 3. Composer orqali o'rnating:
 
 ```bash
-composer require blaze/tenant-terminal:dev-main
+composer require xyorqin/tenant-terminal:dev-main
 ```
 
-### Usul 2: Local Path orqali (Development)
+### Local Path orqali (Development)
 
 1. Paket local papkada bo'lsa:
 
@@ -43,7 +53,7 @@ composer require blaze/tenant-terminal:dev-main
         }
     ],
     "require": {
-        "blaze/tenant-terminal": "*"
+        "xyorqin/tenant-terminal": "*"
     }
 }
 ```
@@ -143,4 +153,4 @@ MIT
 
 ## Author
 
-Blaze
+Xyorqin

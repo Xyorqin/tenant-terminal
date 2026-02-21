@@ -1,6 +1,6 @@
 <?php
 
-namespace Blaze\TenantTerminal;
+namespace Xyorqin\TenantTerminal;
 
 class TenantResolver
 {

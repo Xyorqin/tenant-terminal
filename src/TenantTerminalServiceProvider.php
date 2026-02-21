@@ -1,8 +1,8 @@
 <?php
 
-namespace Blaze\TenantTerminal;
+namespace Xyorqin\TenantTerminal;
 
-use Blaze\TenantTerminal\Commands\TenantCommand;
+use Xyorqin\TenantTerminal\Commands\TenantCommand;
 use Illuminate\Support\ServiceProvider;
 
 class TenantTerminalServiceProvider extends ServiceProvider

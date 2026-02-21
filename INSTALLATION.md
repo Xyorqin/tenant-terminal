@@ -15,7 +15,7 @@ Agar paket sizning kompyuteringizda boshqa joyda bo'lsa:
         }
     ],
     "require": {
-        "blaze/tenant-terminal": "*"
+        "xyorqin/tenant-terminal": "*"
     }
 }
 ```
@@ -27,7 +27,7 @@ Agar paket sizning kompyuteringizda boshqa joyda bo'lsa:
 ### 2-qadam: Composer update qiling:
 
 ```bash
-composer update blaze/tenant-terminal
+composer update xyorqin/tenant-terminal
 ```
 
 ### 3-qadam: Paket o'rnatiladi va symlink yaratiladi (development uchun qulay)
@@ -49,7 +49,7 @@ Agar paketni Git repositoryga yuklagan bo'lsangiz:
         }
     ],
     "require": {
-        "blaze/tenant-terminal": "dev-main"
+        "xyorqin/tenant-terminal": "dev-main"
     }
 }
 ```
@@ -57,7 +57,7 @@ Agar paketni Git repositoryga yuklagan bo'lsangiz:
 ### 2-qadam: Composer install/update:
 
 ```bash
-composer require blaze/tenant-terminal:dev-main
+composer require xyorqin/tenant-terminal:dev-main
 ```
 
 ---
@@ -67,7 +67,7 @@ composer require blaze/tenant-terminal:dev-main
 Agar paketni Packagist.org ga yuklagan bo'lsangiz:
 
 ```bash
-composer require blaze/tenant-terminal
+composer require xyorqin/tenant-terminal
 ```
 
 ---

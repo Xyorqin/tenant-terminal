@@ -1,9 +1,9 @@
 <?php
 
-namespace Blaze\TenantTerminal\Commands;
+namespace Xyorqin\TenantTerminal\Commands;
 
-use Blaze\TenantTerminal\TerminalSession;
-use Blaze\TenantTerminal\TenantResolver;
+use Xyorqin\TenantTerminal\TerminalSession;
+use Xyorqin\TenantTerminal\TenantResolver;
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;

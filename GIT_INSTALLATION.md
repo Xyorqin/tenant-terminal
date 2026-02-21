@@ -45,7 +45,7 @@ Boshqa loyihangizning `composer.json` fayliga:
         }
     ],
     "require": {
-        "blaze/tenant-terminal": "dev-main"
+        "xyorqin/tenant-terminal": "dev-main"
     }
 }
 ```
@@ -61,7 +61,7 @@ Boshqa loyihangizning `composer.json` fayliga:
         }
     ],
     "require": {
-        "blaze/tenant-terminal": "dev-main"
+        "xyorqin/tenant-terminal": "dev-main"
     }
 }
 ```
@@ -69,13 +69,13 @@ Boshqa loyihangizning `composer.json` fayliga:
 ### 2.2. Composer orqali o'rnatish
 
 ```bash
-composer require blaze/tenant-terminal:dev-main
+composer require xyorqin/tenant-terminal:dev-main
 ```
 
 Yoki:
 
 ```bash
-composer update blaze/tenant-terminal
+composer update xyorqin/tenant-terminal
 ```
 
 ---
@@ -87,7 +87,7 @@ composer update blaze/tenant-terminal
 ```json
 {
     "require": {
-        "blaze/tenant-terminal": "dev-feature-branch"
+        "xyorqin/tenant-terminal": "dev-feature-branch"
     }
 }
 ```
@@ -105,7 +105,7 @@ Keyin loyihada:
 ```json
 {
     "require": {
-        "blaze/tenant-terminal": "v1.0.0"
+        "xyorqin/tenant-terminal": "v1.0.0"
     }
 }
 ```
@@ -126,7 +126,7 @@ Keyin loyihada:
     ],
     "require": {
         "php": "^8.1",
-        "blaze/tenant-terminal": "dev-main",
+        "xyorqin/tenant-terminal": "dev-main",
         "laravel/framework": "^10.0"
     }
 }

@@ -15,14 +15,14 @@ Loyihangizning `composer.json` fayliga qo'shing:
         }
     ],
     "require": {
-        "blaze/tenant-terminal": "*"
+        "xyorqin/tenant-terminal": "*"
     }
 }
 ```
 
 Keyin:
 ```bash
-composer update blaze/tenant-terminal
+composer update xyorqin/tenant-terminal
 ```
 
 ### 2. Terminalni ishga tushirish

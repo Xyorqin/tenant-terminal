@@ -1,9 +1,9 @@
 <?php
 
-namespace Blaze\TenantTerminal\Tests;
+namespace Xyorqin\TenantTerminal\Tests;
 
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
-use Blaze\TenantTerminal\TenantTerminalServiceProvider;
+use Xyorqin\TenantTerminal\TenantTerminalServiceProvider;
 
 abstract class TestCase extends OrchestraTestCase
 {

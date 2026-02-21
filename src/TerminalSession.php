@@ -1,6 +1,6 @@
 <?php
 
-namespace Blaze\TenantTerminal;
+namespace Xyorqin\TenantTerminal;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
